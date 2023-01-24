@@ -2,9 +2,16 @@ body {
     background: url(img/bg1.png);
     background-size: 128px 128px;
     font-family: Arial, sans-serif;
-    padding-top: 20px;
-    font-size: 13px;
+    padding-top: 18px;
+    font-size: 14px;
+    line-height: 22px;
     color: #ffffff;
     align-self: center;
     text-align: center;
 }
+
+h1 {font-size: 32px}
+
+a {color: #46ffe0}
+
+a:hover {color: #00c7a6}
