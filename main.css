@@ -1,17 +1,70 @@
 body {
     background: url(img/bg1.png);
     background-size: 128px 128px;
-    font-family: Arial, sans-serif;
-    padding-top: 18px;
-    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+    font-size: 15px;
     line-height: 22px;
     color: #ffffff;
     align-self: center;
     text-align: center;
 }
 
-h1 {font-size: 32px}
+h1 {
+    font-size: 36px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
-a {color: #46ffe0}
+a {color: #31ffdd}
 
-a:hover {color: #00c7a6}
+a:hover {color: #00bd9d}
+
+.background-box {
+    background-color: #450054cc;
+    border-radius: 45px;
+    padding: 10px;
+    padding-bottom: 15px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.small-text {
+    font-size: 11px;
+}
+
+.inline-image {
+    display: inline;
+    height: 32px;
+    width: 32px;
+}
+
+.note {
+    color: #b5fff3;
+    font-size: 11px;
+    animation: skew 2.25s cubic-bezier(0.74, .07, 0.81, 0.15) infinite;
+}
+
+@keyframes skew
+{
+    0% {
+    transform: skew(0);
+    }
+
+    25% {
+    transform: skew(2deg, 2deg);
+    }
+
+    50% {
+    transform: skew(0);
+    }
+
+    75% {
+    transform: skew(-2deg, -2deg);
+    }
+
+    100% {
+    transform: skew(0);
+    }
+}
