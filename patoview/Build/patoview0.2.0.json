@@ -1,0 +1,16 @@
+{
+"companyName": "CXFAI",
+"productName": "PatoView",
+"productVersion": "0.2.0",
+"dataUrl": "patoview0.2.0.data.unityweb",
+"wasmCodeUrl": "patoview0.2.0.wasm.code.unityweb",
+"wasmFrameworkUrl": "patoview0.2.0.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#192137",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.40f1"
+}
