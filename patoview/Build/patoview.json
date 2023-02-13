@@ -1,7 +1,7 @@
 {
 "companyName": "CXFAI",
 "productName": "PatoView",
-"productVersion": "0.2.1",
+"productVersion": "0.3.0",
 "dataUrl": "patoview.data.unityweb",
 "wasmCodeUrl": "patoview.wasm.code.unityweb",
 "wasmFrameworkUrl": "patoview.wasm.framework.unityweb",
